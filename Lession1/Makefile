@@ -6,7 +6,9 @@ OBJ = $(patsubst %.cpp,%.o,$(SRC))
 GXXFLAG = -c -Wall
 
 $(TARGET):$(OBJ)
-	$(GXX) -o $@ $^
+	-$(GXX) -o $@ $^
+	-./$@
+	-rm $@
 
 %.o:%.cpp
 	$(GXX) $(GXXFLAG) $< -o $@
