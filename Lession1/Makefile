@@ -8,7 +8,7 @@ GXXFLAG = -c -Wall
 $(TARGET):$(OBJ)
 	-$(GXX) -o $@ $^
 	-./$@
-	-rm $@
+	-rm *.o
 
 %.o:%.cpp
 	$(GXX) $(GXXFLAG) $< -o $@

@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <unistd.h>
+#include <sys/wait.h>
 
 using namespace std;
 
@@ -16,11 +17,17 @@ int main(void)
 
     //cout << getpid() << endl;
 
+    int *sonStatus;
     pid_t pid = fork();
 
     cout << "current process Pid: " << pid << endl;
 
-    cout << "I've got you in my sight " << endl;
+    if(pid != 0)
+        sleep(2);
+    else
+        waitpid(pid,sonStatus,0);
+
+
+    cout << pid << " I've got you in my sight" << endl;
     
-    return 0;
 }
