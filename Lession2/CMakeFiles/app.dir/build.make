@@ -69,28 +69,28 @@ include CMakeFiles/app.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/app.dir/flags.make
 
-CMakeFiles/app.dir/Mq.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/Mq.cpp.o: Mq.cpp
-CMakeFiles/app.dir/Mq.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/Mq.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/Mq.cpp.o -MF CMakeFiles/app.dir/Mq.cpp.o.d -o CMakeFiles/app.dir/Mq.cpp.o -c /home/jswqzx/Linux_Study/Lession2/Mq.cpp
+CMakeFiles/app.dir/Mq_Producter.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/Mq_Producter.cpp.o: Mq_Producter.cpp
+CMakeFiles/app.dir/Mq_Producter.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/Mq_Producter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/Mq_Producter.cpp.o -MF CMakeFiles/app.dir/Mq_Producter.cpp.o.d -o CMakeFiles/app.dir/Mq_Producter.cpp.o -c /home/jswqzx/Linux_Study/Lession2/Mq_Producter.cpp
 
-CMakeFiles/app.dir/Mq.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/Mq.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jswqzx/Linux_Study/Lession2/Mq.cpp > CMakeFiles/app.dir/Mq.cpp.i
+CMakeFiles/app.dir/Mq_Producter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/Mq_Producter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jswqzx/Linux_Study/Lession2/Mq_Producter.cpp > CMakeFiles/app.dir/Mq_Producter.cpp.i
 
-CMakeFiles/app.dir/Mq.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/Mq.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jswqzx/Linux_Study/Lession2/Mq.cpp -o CMakeFiles/app.dir/Mq.cpp.s
+CMakeFiles/app.dir/Mq_Producter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/Mq_Producter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jswqzx/Linux_Study/Lession2/Mq_Producter.cpp -o CMakeFiles/app.dir/Mq_Producter.cpp.s
 
 # Object files for target app
 app_OBJECTS = \
-"CMakeFiles/app.dir/Mq.cpp.o"
+"CMakeFiles/app.dir/Mq_Producter.cpp.o"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
 
-app: CMakeFiles/app.dir/Mq.cpp.o
+app: CMakeFiles/app.dir/Mq_Producter.cpp.o
 app: CMakeFiles/app.dir/build.make
 app: CMakeFiles/app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jswqzx/Linux_Study/Lession2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable app"

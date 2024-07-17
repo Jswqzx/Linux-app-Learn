@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/app.dir/Mq.cpp.o -o app 
+/usr/bin/c++ -rdynamic CMakeFiles/app.dir/Mq_Producter.cpp.o -o app 

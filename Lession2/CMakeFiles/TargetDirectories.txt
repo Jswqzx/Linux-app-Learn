@@ -1,3 +1,4 @@
 /home/jswqzx/Linux_Study/Lession2/CMakeFiles/app.dir
+/home/jswqzx/Linux_Study/Lession2/CMakeFiles/paa.dir
 /home/jswqzx/Linux_Study/Lession2/CMakeFiles/edit_cache.dir
 /home/jswqzx/Linux_Study/Lession2/CMakeFiles/rebuild_cache.dir

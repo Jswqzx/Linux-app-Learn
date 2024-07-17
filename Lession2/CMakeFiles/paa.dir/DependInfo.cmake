@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jswqzx/Linux_Study/Lession2/Mq_Producter.cpp" "CMakeFiles/app.dir/Mq_Producter.cpp.o" "gcc" "CMakeFiles/app.dir/Mq_Producter.cpp.o.d"
+  "/home/jswqzx/Linux_Study/Lession2/Mq_Consumer.cpp" "CMakeFiles/paa.dir/Mq_Consumer.cpp.o" "gcc" "CMakeFiles/paa.dir/Mq_Consumer.cpp.o.d"
   )
 
 # Targets to which this target links.

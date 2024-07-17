@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/jswqzx/Linux_Study/Lession2
 
 # The main recursive "all" target.
 all: CMakeFiles/app.dir/all
+all: CMakeFiles/paa.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/app.dir/clean
+clean: CMakeFiles/paa.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,6 +101,32 @@ app: CMakeFiles/app.dir/rule
 CMakeFiles/app.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/clean
 .PHONY : CMakeFiles/app.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/paa.dir
+
+# All Build rule for target.
+CMakeFiles/paa.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paa.dir/build.make CMakeFiles/paa.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paa.dir/build.make CMakeFiles/paa.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jswqzx/Linux_Study/Lession2/CMakeFiles --progress-num=3,4 "Built target paa"
+.PHONY : CMakeFiles/paa.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/paa.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jswqzx/Linux_Study/Lession2/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/paa.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jswqzx/Linux_Study/Lession2/CMakeFiles 0
+.PHONY : CMakeFiles/paa.dir/rule
+
+# Convenience name for target.
+paa: CMakeFiles/paa.dir/rule
+.PHONY : paa
+
+# clean rule for target.
+CMakeFiles/paa.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paa.dir/build.make CMakeFiles/paa.dir/clean
+.PHONY : CMakeFiles/paa.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

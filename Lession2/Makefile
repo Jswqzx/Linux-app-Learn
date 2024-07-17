@@ -129,29 +129,66 @@ app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
 .PHONY : app/fast
 
-Mq.o: Mq.cpp.o
-.PHONY : Mq.o
+#=============================================================================
+# Target rules for targets named paa
+
+# Build rule for target.
+paa: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 paa
+.PHONY : paa
+
+# fast build rule for target.
+paa/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paa.dir/build.make CMakeFiles/paa.dir/build
+.PHONY : paa/fast
+
+Mq_Consumer.o: Mq_Consumer.cpp.o
+.PHONY : Mq_Consumer.o
 
 # target to build an object file
-Mq.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/Mq.cpp.o
-.PHONY : Mq.cpp.o
+Mq_Consumer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paa.dir/build.make CMakeFiles/paa.dir/Mq_Consumer.cpp.o
+.PHONY : Mq_Consumer.cpp.o
 
-Mq.i: Mq.cpp.i
-.PHONY : Mq.i
+Mq_Consumer.i: Mq_Consumer.cpp.i
+.PHONY : Mq_Consumer.i
 
 # target to preprocess a source file
-Mq.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/Mq.cpp.i
-.PHONY : Mq.cpp.i
+Mq_Consumer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paa.dir/build.make CMakeFiles/paa.dir/Mq_Consumer.cpp.i
+.PHONY : Mq_Consumer.cpp.i
 
-Mq.s: Mq.cpp.s
-.PHONY : Mq.s
+Mq_Consumer.s: Mq_Consumer.cpp.s
+.PHONY : Mq_Consumer.s
 
 # target to generate assembly for a file
-Mq.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/Mq.cpp.s
-.PHONY : Mq.cpp.s
+Mq_Consumer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paa.dir/build.make CMakeFiles/paa.dir/Mq_Consumer.cpp.s
+.PHONY : Mq_Consumer.cpp.s
+
+Mq_Producter.o: Mq_Producter.cpp.o
+.PHONY : Mq_Producter.o
+
+# target to build an object file
+Mq_Producter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/Mq_Producter.cpp.o
+.PHONY : Mq_Producter.cpp.o
+
+Mq_Producter.i: Mq_Producter.cpp.i
+.PHONY : Mq_Producter.i
+
+# target to preprocess a source file
+Mq_Producter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/Mq_Producter.cpp.i
+.PHONY : Mq_Producter.cpp.i
+
+Mq_Producter.s: Mq_Producter.cpp.s
+.PHONY : Mq_Producter.s
+
+# target to generate assembly for a file
+Mq_Producter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/Mq_Producter.cpp.s
+.PHONY : Mq_Producter.cpp.s
 
 # Help Target
 help:
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... app"
-	@echo "... Mq.o"
-	@echo "... Mq.i"
-	@echo "... Mq.s"
+	@echo "... paa"
+	@echo "... Mq_Consumer.o"
+	@echo "... Mq_Consumer.i"
+	@echo "... Mq_Consumer.s"
+	@echo "... Mq_Producter.o"
+	@echo "... Mq_Producter.i"
+	@echo "... Mq_Producter.s"
 .PHONY : help
 
 

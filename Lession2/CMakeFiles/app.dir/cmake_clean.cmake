@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/app.dir/Mq.cpp.o"
-  "CMakeFiles/app.dir/Mq.cpp.o.d"
+  "CMakeFiles/app.dir/Mq_Producter.cpp.o"
+  "CMakeFiles/app.dir/Mq_Producter.cpp.o.d"
   "app"
   "app.pdb"
 )
