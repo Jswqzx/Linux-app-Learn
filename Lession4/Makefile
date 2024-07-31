@@ -129,6 +129,54 @@ app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
 .PHONY : app/fast
 
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/question_4.o: src/question_4.cpp.o
+.PHONY : src/question_4.o
+
+# target to build an object file
+src/question_4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_4.cpp.o
+.PHONY : src/question_4.cpp.o
+
+src/question_4.i: src/question_4.cpp.i
+.PHONY : src/question_4.i
+
+# target to preprocess a source file
+src/question_4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_4.cpp.i
+.PHONY : src/question_4.cpp.i
+
+src/question_4.s: src/question_4.cpp.s
+.PHONY : src/question_4.s
+
+# target to generate assembly for a file
+src/question_4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_4.cpp.s
+.PHONY : src/question_4.cpp.s
+
 src/question_5.o: src/question_5.cpp.o
 .PHONY : src/question_5.o
 
@@ -153,6 +201,54 @@ src/question_5.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_5.cpp.s
 .PHONY : src/question_5.cpp.s
 
+src/question_6.o: src/question_6.cpp.o
+.PHONY : src/question_6.o
+
+# target to build an object file
+src/question_6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_6.cpp.o
+.PHONY : src/question_6.cpp.o
+
+src/question_6.i: src/question_6.cpp.i
+.PHONY : src/question_6.i
+
+# target to preprocess a source file
+src/question_6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_6.cpp.i
+.PHONY : src/question_6.cpp.i
+
+src/question_6.s: src/question_6.cpp.s
+.PHONY : src/question_6.s
+
+# target to generate assembly for a file
+src/question_6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_6.cpp.s
+.PHONY : src/question_6.cpp.s
+
+src/question_7.o: src/question_7.cpp.o
+.PHONY : src/question_7.o
+
+# target to build an object file
+src/question_7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_7.cpp.o
+.PHONY : src/question_7.cpp.o
+
+src/question_7.i: src/question_7.cpp.i
+.PHONY : src/question_7.i
+
+# target to preprocess a source file
+src/question_7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_7.cpp.i
+.PHONY : src/question_7.cpp.i
+
+src/question_7.s: src/question_7.cpp.s
+.PHONY : src/question_7.s
+
+# target to generate assembly for a file
+src/question_7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_7.cpp.s
+.PHONY : src/question_7.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +258,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... app"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/question_4.o"
+	@echo "... src/question_4.i"
+	@echo "... src/question_4.s"
 	@echo "... src/question_5.o"
 	@echo "... src/question_5.i"
 	@echo "... src/question_5.s"
+	@echo "... src/question_6.o"
+	@echo "... src/question_6.i"
+	@echo "... src/question_6.s"
+	@echo "... src/question_7.o"
+	@echo "... src/question_7.i"
+	@echo "... src/question_7.s"
 .PHONY : help
 
 
