@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jswqzx/Linux_Study/Lession4/src/question_5.cpp" "CMakeFiles/app.dir/src/question_5.cpp.o" "gcc" "CMakeFiles/app.dir/src/question_5.cpp.o.d"
   "/home/jswqzx/Linux_Study/Lession4/src/question_6.cpp" "CMakeFiles/app.dir/src/question_6.cpp.o" "gcc" "CMakeFiles/app.dir/src/question_6.cpp.o.d"
   "/home/jswqzx/Linux_Study/Lession4/src/question_7.cpp" "CMakeFiles/app.dir/src/question_7.cpp.o" "gcc" "CMakeFiles/app.dir/src/question_7.cpp.o.d"
+  "/home/jswqzx/Linux_Study/Lession4/src/question_8.cpp" "CMakeFiles/app.dir/src/question_8.cpp.o" "gcc" "CMakeFiles/app.dir/src/question_8.cpp.o.d"
   )
 
 # Targets to which this target links.

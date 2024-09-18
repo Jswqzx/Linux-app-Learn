@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/app.dir/src/question_6.cpp.o.d"
   "CMakeFiles/app.dir/src/question_7.cpp.o"
   "CMakeFiles/app.dir/src/question_7.cpp.o.d"
+  "CMakeFiles/app.dir/src/question_8.cpp.o"
+  "CMakeFiles/app.dir/src/question_8.cpp.o.d"
   "app"
   "app.pdb"
 )

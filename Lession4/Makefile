@@ -249,6 +249,30 @@ src/question_7.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_7.cpp.s
 .PHONY : src/question_7.cpp.s
 
+src/question_8.o: src/question_8.cpp.o
+.PHONY : src/question_8.o
+
+# target to build an object file
+src/question_8.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_8.cpp.o
+.PHONY : src/question_8.cpp.o
+
+src/question_8.i: src/question_8.cpp.i
+.PHONY : src/question_8.i
+
+# target to preprocess a source file
+src/question_8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_8.cpp.i
+.PHONY : src/question_8.cpp.i
+
+src/question_8.s: src/question_8.cpp.s
+.PHONY : src/question_8.s
+
+# target to generate assembly for a file
+src/question_8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_8.cpp.s
+.PHONY : src/question_8.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -273,6 +297,9 @@ help:
 	@echo "... src/question_7.o"
 	@echo "... src/question_7.i"
 	@echo "... src/question_7.s"
+	@echo "... src/question_8.o"
+	@echo "... src/question_8.i"
+	@echo "... src/question_8.s"
 .PHONY : help
 
 
