@@ -22,26 +22,22 @@ int myAtoi(string s)
 
     // 3. jump pre zero
     while(s[index] == '0') index++;
-
+    
     while(index < s.size())
     {
         if(s[index] < '0' || s[index] > '9')
-            return (res * flag);
+            return res;
             
-        if( res > 214748364 || (res == 214748364 && s[index] > (flag == 1 ? '7' : '8')) )
-        {
-            if( res >= flag == 1 ? 2147483647 : 2147483648)
-                return flag == 1 ? 2147483647 : -2147483648;
-            else
-                return (res * flag);
-        }
-            
-        res = (res * 10) + s[index] - '0';
+        if(res > 214748364 || (res == 214748364 && s[index] > '7') )
+            return 2147483647;
+        else if( res < -214748364 || (res == -214748364 && s[index] > '8'))
+            return -2147483648;
+        
+        cout << (s[index] - '0') * flag << endl;
+        res = (res * 10) + ((s[index] - '0') * flag);
 
         index++;
     }
-
-    res *= flag;
 
     return res;
 }

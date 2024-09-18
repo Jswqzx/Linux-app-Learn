@@ -57,7 +57,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jswqzx/Linux_Study/Lession4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jswqzx/Linux_Study/Lession4
+CMAKE_BINARY_DIR = /home/jswqzx/Linux_Study/Lession4/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/app.dir/clean
 CMakeFiles/app.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jswqzx/Linux_Study/Lession4/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jswqzx/Linux_Study/Lession4/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target app"
 .PHONY : CMakeFiles/app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jswqzx/Linux_Study/Lession4/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jswqzx/Linux_Study/Lession4/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jswqzx/Linux_Study/Lession4/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jswqzx/Linux_Study/Lession4/build/CMakeFiles 0
 .PHONY : CMakeFiles/app.dir/rule
 
 # Convenience name for target.

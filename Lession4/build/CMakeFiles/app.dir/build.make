@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jswqzx/Linux_Study/Lession4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jswqzx/Linux_Study/Lession4
+CMAKE_BINARY_DIR = /home/jswqzx/Linux_Study/Lession4/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/app.dir/depend.make
@@ -70,9 +70,9 @@ include CMakeFiles/app.dir/progress.make
 include CMakeFiles/app.dir/flags.make
 
 CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/main.cpp.o: src/main.cpp
+CMakeFiles/app.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/main.cpp.o -MF CMakeFiles/app.dir/src/main.cpp.o.d -o CMakeFiles/app.dir/src/main.cpp.o -c /home/jswqzx/Linux_Study/Lession4/src/main.cpp
 
 CMakeFiles/app.dir/src/main.cpp.i: cmake_force
@@ -83,10 +83,24 @@ CMakeFiles/app.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jswqzx/Linux_Study/Lession4/src/main.cpp -o CMakeFiles/app.dir/src/main.cpp.s
 
+CMakeFiles/app.dir/src/question_10.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/question_10.cpp.o: ../src/question_10.cpp
+CMakeFiles/app.dir/src/question_10.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/question_10.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/question_10.cpp.o -MF CMakeFiles/app.dir/src/question_10.cpp.o.d -o CMakeFiles/app.dir/src/question_10.cpp.o -c /home/jswqzx/Linux_Study/Lession4/src/question_10.cpp
+
+CMakeFiles/app.dir/src/question_10.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/question_10.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jswqzx/Linux_Study/Lession4/src/question_10.cpp > CMakeFiles/app.dir/src/question_10.cpp.i
+
+CMakeFiles/app.dir/src/question_10.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/question_10.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jswqzx/Linux_Study/Lession4/src/question_10.cpp -o CMakeFiles/app.dir/src/question_10.cpp.s
+
 CMakeFiles/app.dir/src/question_4.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/question_4.cpp.o: src/question_4.cpp
+CMakeFiles/app.dir/src/question_4.cpp.o: ../src/question_4.cpp
 CMakeFiles/app.dir/src/question_4.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/question_4.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/src/question_4.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/question_4.cpp.o -MF CMakeFiles/app.dir/src/question_4.cpp.o.d -o CMakeFiles/app.dir/src/question_4.cpp.o -c /home/jswqzx/Linux_Study/Lession4/src/question_4.cpp
 
 CMakeFiles/app.dir/src/question_4.cpp.i: cmake_force
@@ -98,9 +112,9 @@ CMakeFiles/app.dir/src/question_4.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jswqzx/Linux_Study/Lession4/src/question_4.cpp -o CMakeFiles/app.dir/src/question_4.cpp.s
 
 CMakeFiles/app.dir/src/question_5.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/question_5.cpp.o: src/question_5.cpp
+CMakeFiles/app.dir/src/question_5.cpp.o: ../src/question_5.cpp
 CMakeFiles/app.dir/src/question_5.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/src/question_5.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.dir/src/question_5.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/question_5.cpp.o -MF CMakeFiles/app.dir/src/question_5.cpp.o.d -o CMakeFiles/app.dir/src/question_5.cpp.o -c /home/jswqzx/Linux_Study/Lession4/src/question_5.cpp
 
 CMakeFiles/app.dir/src/question_5.cpp.i: cmake_force
@@ -112,9 +126,9 @@ CMakeFiles/app.dir/src/question_5.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jswqzx/Linux_Study/Lession4/src/question_5.cpp -o CMakeFiles/app.dir/src/question_5.cpp.s
 
 CMakeFiles/app.dir/src/question_6.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/question_6.cpp.o: src/question_6.cpp
+CMakeFiles/app.dir/src/question_6.cpp.o: ../src/question_6.cpp
 CMakeFiles/app.dir/src/question_6.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.dir/src/question_6.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.dir/src/question_6.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/question_6.cpp.o -MF CMakeFiles/app.dir/src/question_6.cpp.o.d -o CMakeFiles/app.dir/src/question_6.cpp.o -c /home/jswqzx/Linux_Study/Lession4/src/question_6.cpp
 
 CMakeFiles/app.dir/src/question_6.cpp.i: cmake_force
@@ -126,9 +140,9 @@ CMakeFiles/app.dir/src/question_6.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jswqzx/Linux_Study/Lession4/src/question_6.cpp -o CMakeFiles/app.dir/src/question_6.cpp.s
 
 CMakeFiles/app.dir/src/question_7.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/question_7.cpp.o: src/question_7.cpp
+CMakeFiles/app.dir/src/question_7.cpp.o: ../src/question_7.cpp
 CMakeFiles/app.dir/src/question_7.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.dir/src/question_7.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/app.dir/src/question_7.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/question_7.cpp.o -MF CMakeFiles/app.dir/src/question_7.cpp.o.d -o CMakeFiles/app.dir/src/question_7.cpp.o -c /home/jswqzx/Linux_Study/Lession4/src/question_7.cpp
 
 CMakeFiles/app.dir/src/question_7.cpp.i: cmake_force
@@ -140,9 +154,9 @@ CMakeFiles/app.dir/src/question_7.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jswqzx/Linux_Study/Lession4/src/question_7.cpp -o CMakeFiles/app.dir/src/question_7.cpp.s
 
 CMakeFiles/app.dir/src/question_8.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/question_8.cpp.o: src/question_8.cpp
+CMakeFiles/app.dir/src/question_8.cpp.o: ../src/question_8.cpp
 CMakeFiles/app.dir/src/question_8.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/app.dir/src/question_8.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/app.dir/src/question_8.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/question_8.cpp.o -MF CMakeFiles/app.dir/src/question_8.cpp.o.d -o CMakeFiles/app.dir/src/question_8.cpp.o -c /home/jswqzx/Linux_Study/Lession4/src/question_8.cpp
 
 CMakeFiles/app.dir/src/question_8.cpp.i: cmake_force
@@ -153,27 +167,45 @@ CMakeFiles/app.dir/src/question_8.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/question_8.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jswqzx/Linux_Study/Lession4/src/question_8.cpp -o CMakeFiles/app.dir/src/question_8.cpp.s
 
+CMakeFiles/app.dir/src/question_9.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/question_9.cpp.o: ../src/question_9.cpp
+CMakeFiles/app.dir/src/question_9.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jswqzx/Linux_Study/Lession4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/app.dir/src/question_9.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/question_9.cpp.o -MF CMakeFiles/app.dir/src/question_9.cpp.o.d -o CMakeFiles/app.dir/src/question_9.cpp.o -c /home/jswqzx/Linux_Study/Lession4/src/question_9.cpp
+
+CMakeFiles/app.dir/src/question_9.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/question_9.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jswqzx/Linux_Study/Lession4/src/question_9.cpp > CMakeFiles/app.dir/src/question_9.cpp.i
+
+CMakeFiles/app.dir/src/question_9.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/question_9.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jswqzx/Linux_Study/Lession4/src/question_9.cpp -o CMakeFiles/app.dir/src/question_9.cpp.s
+
 # Object files for target app
 app_OBJECTS = \
 "CMakeFiles/app.dir/src/main.cpp.o" \
+"CMakeFiles/app.dir/src/question_10.cpp.o" \
 "CMakeFiles/app.dir/src/question_4.cpp.o" \
 "CMakeFiles/app.dir/src/question_5.cpp.o" \
 "CMakeFiles/app.dir/src/question_6.cpp.o" \
 "CMakeFiles/app.dir/src/question_7.cpp.o" \
-"CMakeFiles/app.dir/src/question_8.cpp.o"
+"CMakeFiles/app.dir/src/question_8.cpp.o" \
+"CMakeFiles/app.dir/src/question_9.cpp.o"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
 
 app: CMakeFiles/app.dir/src/main.cpp.o
+app: CMakeFiles/app.dir/src/question_10.cpp.o
 app: CMakeFiles/app.dir/src/question_4.cpp.o
 app: CMakeFiles/app.dir/src/question_5.cpp.o
 app: CMakeFiles/app.dir/src/question_6.cpp.o
 app: CMakeFiles/app.dir/src/question_7.cpp.o
 app: CMakeFiles/app.dir/src/question_8.cpp.o
+app: CMakeFiles/app.dir/src/question_9.cpp.o
 app: CMakeFiles/app.dir/build.make
 app: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jswqzx/Linux_Study/Lession4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jswqzx/Linux_Study/Lession4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -185,6 +217,6 @@ CMakeFiles/app.dir/clean:
 .PHONY : CMakeFiles/app.dir/clean
 
 CMakeFiles/app.dir/depend:
-	cd /home/jswqzx/Linux_Study/Lession4 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jswqzx/Linux_Study/Lession4 /home/jswqzx/Linux_Study/Lession4 /home/jswqzx/Linux_Study/Lession4 /home/jswqzx/Linux_Study/Lession4 /home/jswqzx/Linux_Study/Lession4/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jswqzx/Linux_Study/Lession4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jswqzx/Linux_Study/Lession4 /home/jswqzx/Linux_Study/Lession4 /home/jswqzx/Linux_Study/Lession4/build /home/jswqzx/Linux_Study/Lession4/build /home/jswqzx/Linux_Study/Lession4/build/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/app.dir/depend
 

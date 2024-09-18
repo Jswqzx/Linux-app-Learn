@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jswqzx/Linux_Study/Lession4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jswqzx/Linux_Study/Lession4
+CMAKE_BINARY_DIR = /home/jswqzx/Linux_Study/Lession4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jswqzx/Linux_Study/Lession4/CMakeFiles /home/jswqzx/Linux_Study/Lession4//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jswqzx/Linux_Study/Lession4/build/CMakeFiles /home/jswqzx/Linux_Study/Lession4/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jswqzx/Linux_Study/Lession4/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jswqzx/Linux_Study/Lession4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,6 +152,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/question_10.o: src/question_10.cpp.o
+.PHONY : src/question_10.o
+
+# target to build an object file
+src/question_10.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_10.cpp.o
+.PHONY : src/question_10.cpp.o
+
+src/question_10.i: src/question_10.cpp.i
+.PHONY : src/question_10.i
+
+# target to preprocess a source file
+src/question_10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_10.cpp.i
+.PHONY : src/question_10.cpp.i
+
+src/question_10.s: src/question_10.cpp.s
+.PHONY : src/question_10.s
+
+# target to generate assembly for a file
+src/question_10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_10.cpp.s
+.PHONY : src/question_10.cpp.s
 
 src/question_4.o: src/question_4.cpp.o
 .PHONY : src/question_4.o
@@ -273,6 +297,30 @@ src/question_8.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_8.cpp.s
 .PHONY : src/question_8.cpp.s
 
+src/question_9.o: src/question_9.cpp.o
+.PHONY : src/question_9.o
+
+# target to build an object file
+src/question_9.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_9.cpp.o
+.PHONY : src/question_9.cpp.o
+
+src/question_9.i: src/question_9.cpp.i
+.PHONY : src/question_9.i
+
+# target to preprocess a source file
+src/question_9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_9.cpp.i
+.PHONY : src/question_9.cpp.i
+
+src/question_9.s: src/question_9.cpp.s
+.PHONY : src/question_9.s
+
+# target to generate assembly for a file
+src/question_9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/question_9.cpp.s
+.PHONY : src/question_9.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -285,6 +333,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/question_10.o"
+	@echo "... src/question_10.i"
+	@echo "... src/question_10.s"
 	@echo "... src/question_4.o"
 	@echo "... src/question_4.i"
 	@echo "... src/question_4.s"
@@ -300,6 +351,9 @@ help:
 	@echo "... src/question_8.o"
 	@echo "... src/question_8.i"
 	@echo "... src/question_8.s"
+	@echo "... src/question_9.o"
+	@echo "... src/question_9.i"
+	@echo "... src/question_9.s"
 .PHONY : help
 
 

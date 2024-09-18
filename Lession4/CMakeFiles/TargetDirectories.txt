@@ -1,3 +1,0 @@
-/home/jswqzx/Linux_Study/Lession4/CMakeFiles/app.dir
-/home/jswqzx/Linux_Study/Lession4/CMakeFiles/edit_cache.dir
-/home/jswqzx/Linux_Study/Lession4/CMakeFiles/rebuild_cache.dir
